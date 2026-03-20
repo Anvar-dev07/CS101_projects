@@ -76,9 +76,6 @@ class ShoppingCart:
       print(f"Total Tax: ${total_tax:.2f}")
       print(f"Grand Total: ${grand_total:.2f}")
 
-      result = None
-      return result
-
 cart = ShoppingCart('Alisher')
 
 cart.add_item(Product('Laptop', 1000))
